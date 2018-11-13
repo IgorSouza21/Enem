@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Enem" android:fitsSystemWindows="false">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="139dp" android:id="@+id/imageView4"
+                android:background="@drawable/enem" android:contentDescription="@android:string/untitled"/>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="107dp" android:id="@+id/btHumanas"
+                style="@style/Widget.AppCompat.Button.Colored" tools:text="Ciências Humanas"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="93dp" android:id="@+id/btNatu"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="101dp" android:id="@+id/btPort"/>
+        <Button
+                android:text="Button"
+                android:layout_width="match_parent"
+                android:layout_height="111dp" android:id="@+id/bt"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
