@@ -22,14 +22,14 @@
         <Button
                 android:text="Button"
                 android:layout_width="match_parent"
-                android:layout_height="93dp" android:id="@+id/btNatu"/>
+                android:layout_height="93dp" android:id="@+id/btNatu" tools:text="Ciências da Natureza"/>
         <Button
-                android:text="Button"
+                android:text="Português"
                 android:layout_width="match_parent"
                 android:layout_height="101dp" android:id="@+id/btPort"/>
         <Button
-                android:text="Button"
+                android:text="Matemática"
                 android:layout_width="match_parent"
-                android:layout_height="111dp" android:id="@+id/bt"/>
+                android:layout_height="111dp" android:id="@+id/btMat"/>
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>
