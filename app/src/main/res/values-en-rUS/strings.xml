@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Enem</string>
+    <string name="btPort">Portuguese</string>
+    <string name="btMat">Math</string>
+    <string name="btNat">Science of Nature</string>
+    <string name="btHum">Human Science</string>
+</resources>
