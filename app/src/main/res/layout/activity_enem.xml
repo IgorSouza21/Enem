@@ -7,29 +7,40 @@
         android:layout_height="match_parent"
         tools:context=".Enem" android:fitsSystemWindows="false">
 
-    <LinearLayout
-            android:orientation="vertical"
+    <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-        <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="139dp" android:id="@+id/imageView4"
-                android:background="@drawable/enem" android:contentDescription="@android:string/untitled"/>
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="107dp" android:id="@+id/btHumanas"
-                style="@style/Widget.AppCompat.Button.Colored" tools:text="Ciências Humanas"/>
-        <Button
-                android:text="Button"
-                android:layout_width="match_parent"
-                android:layout_height="93dp" android:id="@+id/btNatu" tools:text="Ciências da Natureza"/>
-        <Button
-                android:text="Português"
-                android:layout_width="match_parent"
-                android:layout_height="101dp" android:id="@+id/btPort"/>
-        <Button
-                android:text="Matemática"
-                android:layout_width="match_parent"
-                android:layout_height="111dp" android:id="@+id/btMat"/>
-    </LinearLayout>
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="139dp" android:id="@+id/imaEnem"
+                    android:contentDescription="@android:string/untitled" android:src="@drawable/enem"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp" android:id="@+id/btMat"
+                    style="@android:style/Widget.Button.Small"
+                    android:background="@drawable/matematicas"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="95dp" android:id="@+id/btPort"
+                    style="@android:style/Widget.Button.Small"
+                    android:background="@drawable/linguagens"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp" android:id="@+id/btHumanas"
+                    style="@android:style/Widget.Button.Small"
+                    android:background="@drawable/ciencias_humanas"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="87dp" android:id="@+id/btNatu"
+                    style="@android:style/Widget.Button.Small"
+                    android:background="@drawable/cien"/>
+            <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="87dp" android:id="@+id/btNatu3"
+                    style="@android:style/Widget.Button.Small"
+                    android:background="@drawable/simu"/>
+        </LinearLayout>
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>
