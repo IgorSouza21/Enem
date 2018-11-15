@@ -18,6 +18,9 @@
                                                android:text="Left"/>
         <android.support.design.widget.TabItem
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/tabItem3" android:text="Tab7"/>
+        <android.support.design.widget.TabItem
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/tabItem2" android:text="Tab6"/>
         <android.support.design.widget.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content"
                                                android:text="Center"/>
