@@ -6,7 +6,8 @@
     <string name="btNat">Ciências da Natureza</string>
     <string name="btHum">Ciências Humanas</string>
     <!--TODO colocar isso como translation-->
-    <string name="Act" tools:ignore="MissingTranslation">Atividades</string>
-    <string name="tbDesem" tools:ignore="MissingTranslation">Desempenho</string>
-    <string name="tbCalend" tools:ignore="MissingTranslation">Calendário</string>
+    <string name="Act">Atividades</string>
+    <string name="tbDesem">Desempenho</string>
+    <string name="tbCalend">Calendário</string>
+    <string name="btVoltar">Voltar</string>
 </resources>

@@ -5,4 +5,8 @@
     <string name="btMat">Math</string>
     <string name="btNat">Science of Nature</string>
     <string name="btHum">Human Science</string>
+    <string name="Act">Activities</string>
+    <string name="tbDesem">performance</string>
+    <string name="tbCalend">Calendare</string>
+    <string name="btVoltar">Back</string>
 </resources>
