@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="219dp"
+            android:layout_height="0dp"
+            android:id="@+id/tvDisciplina" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" android:textSize="50sp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp" app:fontFamily="cursive"
+            android:textStyle="bold" android:textColor="@color/colorPrimary"
+            app:layout_constraintHorizontal_bias="0.428"/>
+    <Button
+            android:text="@string/btVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btVoltar"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.982"/>
+    <Button
+            android:text="@string/tbDesem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btDesempenho"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="140dp" app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+            android:text="@string/Act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btAtividades" android:layout_marginTop="56dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvDisciplina"
+            app:layout_constraintStart_toEndOf="@+id/btDesempenho" android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp" app:layout_constraintEnd_toStartOf="@+id/btCalendario"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.439"/>
+    <Button
+            android:text="@string/tbCalend"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:id="@+id/btCalendario"
+            android:layout_marginEnd="92dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="92dp"
+            android:layout_marginTop="148dp" app:layout_constraintTop_toTopOf="parent"/>
+</android.support.constraint.ConstraintLayout>
