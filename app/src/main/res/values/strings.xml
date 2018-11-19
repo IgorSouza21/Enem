@@ -1,6 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Enem</string>
-
     <string name="btPort">Português</string>
     <string name="btMat">Matemática</string>
     <string name="btNat">Ciências da Natureza</string>
@@ -10,4 +9,5 @@
     <string name="tbDesem">Desempenho</string>
     <string name="tbCalend">Calendário</string>
     <string name="btVoltar">Voltar</string>
+    <string name="title_activity_tela_diciplina_calendario" translatable="false">tela_diciplina_calendario</string>
 </resources>
