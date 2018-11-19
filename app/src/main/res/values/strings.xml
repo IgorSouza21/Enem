@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Enem</string>
+
+    <string name="btPort">Português</string>
+    <string name="btMat">Matemática</string>
+    <string name="btNat">Ciências da Natureza</string>
+    <string name="btHum">Ciências Humanas</string>
 </resources>
