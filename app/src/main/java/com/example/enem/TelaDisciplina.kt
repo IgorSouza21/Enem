@@ -1,7 +1,9 @@
 package com.example.enem
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 class TelaDisciplina : AppCompatActivity() {
@@ -11,11 +13,24 @@ class TelaDisciplina : AppCompatActivity() {
         setContentView(R.layout.activity_tela_disciplina)
         var tvDisc = findViewById<TextView>(R.id.tvDisciplina)
         var disc = intent.getStringExtra("disciplina")
-        if (disc == "matematica"){
-            print(1)
+        var telaAnterior = intent.getStringExtra("tela")
+        var btnVoltar = findViewById<Button>(R.id.btVoltar)
+        if (disc == "mat"){
+//            Para Internacionalização
+            tvDisc.setText(R.string.btMat)
+        }else if(disc == "cn"){
+            tvDisc.setText(R.string.btNat)
+        }else if(disc == "ch"){
+            tvDisc.setText(R.string.btHum)
+        }else if(disc == "port"){
+            tvDisc.setText(R.string.btPort)
         }else{
-            print(2)
-        }
 
+        }
+//      TODO Fazer com que saiba qual a última tela aberta para voltar a ela
+        btnVoltar.setOnClickListener {
+            val voltar = Intent(this, MainActivity::class.java)
+            startActivity(voltar)
+        }
     }
 }
