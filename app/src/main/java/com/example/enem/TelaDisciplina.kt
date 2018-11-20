@@ -34,6 +34,11 @@ class TelaDisciplina : AppCompatActivity() {
             startActivity(voltar)
         }
 
+        btnCalendario.setOnClickListener {
+            val calendar = Intent(this,Calendario::class.java)
+            startActivity(calendar)
+        }
+
 
     }
 }

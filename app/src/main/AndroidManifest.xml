@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".TelaDisciplina">
         </activity>
+        <activity android:name=".Calendario">
+        </activity>
     </application>
 
 </manifest>
