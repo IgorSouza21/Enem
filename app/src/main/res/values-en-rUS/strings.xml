@@ -7,6 +7,8 @@
     <string name="btHum">Human Science</string>
     <string name="Act">Activities</string>
     <string name="tbDesem">performance</string>
-    <string name="tbCalend">Calendare</string>
+    <string name="nav_calender">Calendare</string>
     <string name="btVoltar">Back</string>
+    <string name="nav_list_ativ">List Activities</string>
+    <string name="nav_add_alarme">Add Alarm</string>
 </resources>

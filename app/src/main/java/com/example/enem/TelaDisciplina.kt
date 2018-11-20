@@ -13,7 +13,8 @@ class TelaDisciplina : AppCompatActivity() {
         setContentView(R.layout.activity_tela_disciplina)
         var tvDisc = findViewById<TextView>(R.id.tvDisciplina)
         var disc = intent.getStringExtra("disciplina")
-        var telaAnterior = intent.getStringExtra("tela")
+//        var telaAnterior = intent.getStringExtra("tela")
+        var btnCalendario = findViewById<Button>(R.id.btCalendario)
         var btnVoltar = findViewById<Button>(R.id.btVoltar)
         if (disc == "mat"){
 //            Para Internacionalização
@@ -32,5 +33,7 @@ class TelaDisciplina : AppCompatActivity() {
             val voltar = Intent(this, MainActivity::class.java)
             startActivity(voltar)
         }
+
+
     }
 }

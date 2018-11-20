@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/nav_calender" android:icon="@drawable/baseline_calendar_today_black_18dp"
+          android:id="@+id/nav_calender"/>
+    <item android:title="@string/nav_list_ativ" android:icon="@drawable/baseline_list_alt_black_18dp"
+          android:id="@+id/nav_list"/>
+    <item android:title="@string/nav_add_alarme" android:icon="@drawable/baseline_add_alarm_black_18dp"
+          android:id="@+id/nav_add_alarm"/>
+</menu>
