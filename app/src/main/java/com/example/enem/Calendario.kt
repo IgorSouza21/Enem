@@ -2,10 +2,7 @@ package com.example.enem
 
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
-import android.support.design.widget.NavigationView
 import android.support.v7.app.AppCompatActivity
-import android.view.MenuItem
-import android.widget.FrameLayout
 import kotlinx.android.synthetic.main.tela_disciplina_calendario.*
 
 
