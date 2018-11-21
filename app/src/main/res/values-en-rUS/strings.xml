@@ -12,5 +12,18 @@
     <string name="btVoltar">Back</string>
     <string name="nav_list_ativ">List Activities</string>
     <string name="nav_add_alarme">Add Alarm</string>
-
+    <string name="nome_alarme">Activitie Name</string>
+    <string name="add_atividade">Add Activitie</string>
+    <string name="hora">TIME</string>
+    <string name="lembrar_antes">Lembrar Antes</string>
+    <string name="ten">10 min</string>
+    <string name="vint">20 min</string>
+    <string name="trinta">30 min</string>
+    <string name="date">Date</string>
+    <string name="salvar">Salve</string>
+    <string name="nome">Name</string>
+    <string name="senha">Password</string>
+    <string name="alertTitle">Login Error</string>
+    <string name="alertMessage">Name or Password invalid</string>
+    <string name="alertMessage2">colocar pro inglês</string>
 </resources>

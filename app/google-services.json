@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1032552331050",
+    "firebase_url": "https://enem-na-mao.firebaseio.com",
+    "project_id": "enem-na-mao",
+    "storage_bucket": "enem-na-mao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032552331050:android:5d72596d7217317f",
+        "android_client_info": {
+          "package_name": "com.example.enem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1032552331050-61hnktpjb07pksslu0c6h1l2ep582fej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp-GHF8iGTU85TZa0NUsc6AqW-rVrAOeQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

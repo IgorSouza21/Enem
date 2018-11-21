@@ -13,6 +13,18 @@
     <string name="nav_calender">Calendario</string>
     <string name="nav_list_ativ">listar atividades</string>
     <string name="nav_add_alarme">Adcionar Alarme</string>
-
-
+    <string name="nome_alarme">Nome da Atividade</string>
+    <string name="add_atividade">Adicionar Atividades</string>
+    <string name="hora">HORA</string>
+    <string name="lembrar_antes">Lembrar Antes</string>
+    <string name="ten">10 min</string>
+    <string name="vint">20 min</string>
+    <string name="trinta">30 min</string>
+    <string name="date">Data</string>
+    <string name="salvar">Salvar</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="alertTitle">Erro no Login</string>
+    <string name="alertMessage">Senha ou Nome inválido!</string>
+    <string name="alertMessage2">Preencha todos os campos</string>
 </resources>

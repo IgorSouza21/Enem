@@ -17,30 +17,26 @@ class MainActivity : AppCompatActivity() {
         var btnPor = findViewById<Button>(R.id.btPort)
 
         btnMat.setOnClickListener{
-            val telaNova = Intent(this,TelaDisciplina::class.java)
+            val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","mat")
-            telaNova.putExtra("tela","MainActivity")
             startActivity(telaNova)
         }
         btnCh.setOnClickListener{
-            val telaNova = Intent(this,TelaDisciplina::class.java)
+            val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","ch")
             startActivity(telaNova)
         }
 
         btnCn.setOnClickListener{
-            val telaNova = Intent(this,TelaDisciplina::class.java)
+            val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","cn")
             startActivity(telaNova)
         }
 
         btnPor.setOnClickListener{
-            val telaNova = Intent(this,TelaDisciplina::class.java)
+            val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","port")
             startActivity(telaNova)
         }
-
-
     }
-
 }
