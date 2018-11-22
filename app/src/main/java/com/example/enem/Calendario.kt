@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.tela_disciplina_calendario.*
 
 
-class Calendario() : AppCompatActivity() {
-    val manager = supportFragmentManager
+class Calendario : AppCompatActivity() {
+    val manager = this.supportFragmentManager
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { menu ->
         when(menu.itemId){
             R.id.nav_calender ->{
@@ -34,7 +34,7 @@ class Calendario() : AppCompatActivity() {
 
     }
 
-    fun createFragmentCalendario(){
+    private fun createFragmentCalendario(){
         val transaction = manager.beginTransaction()
         val fragment = FragmentCalendario()
         transaction.replace(R.id.main_frame,fragment)
@@ -42,7 +42,7 @@ class Calendario() : AppCompatActivity() {
         transaction.commit()
     }
 
-    fun createFragmentListaAtividades(){
+    private fun createFragmentListaAtividades(){
         val transaction = manager.beginTransaction()
         val fragment = ListaAtividades()
         transaction.replace(R.id.main_frame,fragment)
@@ -50,7 +50,7 @@ class Calendario() : AppCompatActivity() {
         transaction.commit()
     }
 
-    fun createFragmentAddAlarme(){
+    private fun createFragmentAddAlarme(){
         val transaction = manager.beginTransaction()
         val fragment = AddAlarme()
         transaction.replace(R.id.main_frame,fragment)

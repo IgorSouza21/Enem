@@ -1,9 +1,9 @@
 package com.example.enem
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
+import android.support.v7.app.AppCompatActivity
+import kotlinx.android.synthetic.main.activity_enem.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,29 +11,24 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_enem)
 
-        var btnMat = findViewById<Button>(R.id.btMat)
-        var btnCh = findViewById<Button>(R.id.btHumanas)
-        var btnCn = findViewById<Button>(R.id.btNatu)
-        var btnPor = findViewById<Button>(R.id.btPort)
-
-        btnMat.setOnClickListener{
+        btMat.setOnClickListener{
             val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","mat")
             startActivity(telaNova)
         }
-        btnCh.setOnClickListener{
+        btHumanas.setOnClickListener{
             val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","ch")
             startActivity(telaNova)
         }
 
-        btnCn.setOnClickListener{
+        btNatu.setOnClickListener{
             val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","cn")
             startActivity(telaNova)
         }
 
-        btnPor.setOnClickListener{
+        btPort.setOnClickListener{
             val telaNova = Intent(this,Calendario::class.java)
             telaNova.putExtra("disciplina","port")
             startActivity(telaNova)
