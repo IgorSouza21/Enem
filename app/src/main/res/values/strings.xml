@@ -10,7 +10,7 @@
     <string name="tbCalend">Calendário</string>
     <string name="btVoltar">Voltar</string>
     <string name="title_activity_tela_diciplina_calendario" translatable="false">tela_diciplina_calendario</string>
-    <string name="nav_calender">Calendario</string>
+    <string name="nav_calender">Calendário</string>
     <string name="nav_list_ativ">listar atividades</string>
     <string name="nav_add_alarme">Adcionar Alarme</string>
     <string name="nome_alarme">Nome da Atividade</string>
